@@ -1,0 +1,30 @@
+{
+  "name": "catgenerator",
+  "version": "1.0.0",
+  "description": "free cats",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "node-fetch": "^2.6.1",
+    "readline-promise": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zyrnwtf (https://zyrn.wtf)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyme-xd/catgenerator.git"
+  },
+  "keywords": [
+    "cat",
+    "free",
+    "download"
+  ],
+  "bugs": {
+    "url": "https://github.com/zyme-xd/catgenerator/issues"
+  },
+  "homepage": "https://github.com/zyme-xd/catgenerator#readme"
+}
