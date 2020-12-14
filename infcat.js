@@ -7,8 +7,6 @@ async function catHell() {
         let response2 = await fetch('https://cdn.shibe.online/cats/' + FileName + '.jpg')
         let writestream = fs.createWriteStream('./folder/' + FileName + '.jpg')
         response2.body.pipe(writestream)
-
-
     })
     await Promise.all(downloads)
     catHell()
