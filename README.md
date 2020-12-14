@@ -11,4 +11,5 @@ CatGenerator is a, well, cat "generator" Using the https://shibe.online/ API, it
 
 Create a folder named `folder`
 run `node .\index.js`
+if you want inf cats, do `node .\infcat.js`
 It will then prompt you how many cats you would like to download, between 1 and 100.
